@@ -1,0 +1,50 @@
+.searchForm {
+  background: #F5D2D2;
+  padding: 12px;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(15,23,42,0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.label {
+  font-size: 1rem;
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.input {
+  flex: 1 1 auto;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #e6e8eb;
+  font-size: 1rem;
+  outline: none;
+}
+
+.input:focus {
+  border-color: #59AC77;
+  box-shadow: 0 0 0 3px rgba(96,165,250,0.12);
+}
+
+.button {
+  background: #F08787;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

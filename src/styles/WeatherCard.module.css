@@ -1,0 +1,105 @@
+.card {
+  background: #FDAAAA;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(2,6,23,0.04);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.timezone {
+  margin-top: 4px;
+  color: #6b7280;
+  font-size: 0.85rem;
+}
+
+.tempBlock {
+  text-align: right;
+}
+
+.temp {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #0b1220;
+}
+
+.desc {
+  color: #475569;
+  font-size: 0.95rem;
+}
+
+.details {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.detailItem {
+  background: whitesmoke;
+  padding: 10px;
+  border-radius: 8px;
+  min-width: 140px;
+  filter: drop-shadow(0 0 0.5em black);
+}
+
+.hourlyTitle {
+  font-weight: 600;
+  margin-top: 6px;
+  color: #0f172a;
+}
+
+.hourlyList {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 6px;
+}
+
+.hourItem {
+  min-width: 120px;
+  background: whitesmoke;
+  border-radius: 8px;
+  padding: 8px;
+  font-size: 0.85rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+
+.hourTime {
+  color: #334155;
+  font-weight: 600;
+}
+
+.hourTemp {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #0b1220;
+}
+
+.hourCode {
+  color: #475569;
+  font-size: 0.8rem;
+}
+
+/* Error box reuse */
+.errorBox {
+  background: #fff1f2;
+  color: #b91c1c;
+  border: 1px solid #fca5a5;
+  padding: 12px;
+  border-radius: 8px;
+}
